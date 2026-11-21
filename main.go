@@ -1,4 +1,4 @@
-package main
+package rotacionador
 
 import (
 	"bufio"
@@ -140,7 +140,7 @@ func CheckIP(client *http.Client) error {
 	return nil
 }
 
-func main() {
+func execRotacionador() {
 
 	client, transport, err := NewTorClient()
 	if err != nil {
