@@ -140,7 +140,7 @@ func CheckIP(client *http.Client) error {
 	return nil
 }
 
-func execRotacionador() {
+func ExecRotacionador() {
 
 	client, transport, err := NewTorClient()
 	if err != nil {
